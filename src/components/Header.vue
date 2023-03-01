@@ -5,6 +5,8 @@
 <template>
   <div class="Header">
     <img class="Header-image" src="../assets/hero.jpg" />
+    <h1>FIND AN APARTMENT</h1>
+    <h2>NO BROKERS, NO PROBLEM</h2>
   </div>
 </template>
 

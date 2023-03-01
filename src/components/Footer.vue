@@ -6,6 +6,7 @@
 
 <style scoped>
   .Navbar-bg {
-    background-color: purple;
+    background-color: grey;
+    height: 40vh;
   }
 </style>

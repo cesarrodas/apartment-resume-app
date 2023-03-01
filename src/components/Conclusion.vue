@@ -9,7 +9,7 @@
     height: 80vh;
     filter: brightness(0.);
     position: relative;
-    background-color: rgb(234, 227, 227);
+    background-color: rgb(187, 182, 182);
     overflow: hidden;
   }
 
@@ -18,5 +18,6 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    filter: brightness(80%);
   }
 </style>
