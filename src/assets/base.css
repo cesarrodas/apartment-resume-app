@@ -72,3 +72,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('./assets/fonts/DancingScript-Bold.ttf') format('truetype');
+}
