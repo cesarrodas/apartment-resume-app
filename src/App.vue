@@ -8,14 +8,19 @@ import Conclusion from './components/Conclusion.vue'
 </script>
 
 <template>
-  <NavBar msg="You did it!" />
-  <Header />
-  <Information />
-  <Benefits />
-  <Conclusion />
-  <Footer />
+  <div class="Fullbody">
+    <NavBar msg="You did it!" />
+    <Header />
+    <Information />
+    <Benefits />
+    <Conclusion />
+    <Footer />
+  </div>
 </template>
 
 <style scoped>
-
+  .Fullbody {
+    width: 100%;
+    overflow-x: hidden;
+  }
 </style>

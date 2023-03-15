@@ -1,13 +1,15 @@
 <template>
   <div class="Information">
     <img src="../assets/city.svg" />
-    <h2>NYC Renters pay on average </h2>
-    <h2>$4,500 in broker commission</h2>
-    <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
-    <h2>Landlord vacancies </h2>
-    <h2> are tough to find</h2>
-    <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
-    <h2>WE <span class="Information-special-text">Aggregate</span> <br/> LISTINGS DIRECT <br/> FROM LANDLORDS</h2>
+    <div class="Information-container">
+      <h2>NYC Renters pay on average </h2>
+      <h2>$4,500 in broker commission</h2>
+      <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
+      <h2>Landlord vacancies </h2>
+      <h2> are tough to find</h2>
+      <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
+      <h2>WE <span class="Information-special-text">Aggregate</span> <br/> LISTINGS DIRECT <br/> FROM LANDLORDS</h2>
+    </div>
 
     <div class="ImagesContainer">
       <div class="Information-Circle one">
@@ -28,6 +30,12 @@
     overflow: hidden;
     width: 100%;
     background: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+  }
+
+  .Information-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
   }
 
   .Information > img {

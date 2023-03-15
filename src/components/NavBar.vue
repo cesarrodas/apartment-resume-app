@@ -17,12 +17,13 @@
     top: 0;
     height: 60px;
     background-color: rgba(255,255,255,0.6);
-    width: 100%;
     z-index: 10;
     font-size: 30px;
     line-height: 60px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    overflow-x: hidden;
   }
 
   .Navbar-title {

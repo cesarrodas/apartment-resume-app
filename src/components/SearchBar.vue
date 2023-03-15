@@ -18,6 +18,10 @@
     margin-top: 2rem;
   }
 
+  .SearchBar::placeholder {
+    color: white;
+  }
+
   .SearchBar:focus{
     outline: none;
 }

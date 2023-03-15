@@ -1,8 +1,12 @@
 <template>
   <div class="Conclusion">
     <img class="Conclusion-image" src="../assets/conclusion.jpg" />
-    <h2 class="Conclusion-message">WE DELIVER TODAY!</h2>
-    <button>SIGN UP</button>
+    <div class="Conclusion-container">
+      <h2 class="Conclusion-message">WE <br/>DELIVER <br/> TODAY!</h2>
+      <div class="Conclusion-button">
+        <button class="Learn">SIGN UP</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,6 +17,15 @@
     position: relative;
     background-color: rgb(187, 182, 182);
     overflow: hidden;
+  }
+
+  .Conclusion-container {
+    height: 100vh;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3rem;
   }
 
   .Conclusion-image {
@@ -28,5 +41,23 @@
     color: white;
     font-size: 3rem;
     font-weight: bold;
+  }
+
+  .Conclusion-button {
+    display: flex;
+    justify-content: end;
+  }
+
+  .Learn {
+    background-color: green;
+    padding: 1rem 1.5rem;
+    width: fit-content;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 2rem;
   }
 </style>
