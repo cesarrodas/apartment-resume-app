@@ -11,8 +11,8 @@
 
   .inputContainer {
     position: relative;
-    width: 40vw;
-    margin-left: 6rem;
+    width: 80vw;
+    margin-left: 2rem;
     padding: 0;
     margin-top: 2rem;
   }
@@ -28,7 +28,7 @@
     background: rgba(0, 0, 0, .5);
     border-radius: none;
     border: .4rem solid rgba(255,255,255,0.6);
-    width: 40vw;
+    width: 100%;
     position: relative;
     color: white;
     font-size: 1rem;
@@ -41,6 +41,13 @@
 
   .SearchBar:focus{
     outline: none;
-}
+  }
+
+  @media screen and (min-width: 900px ) {
+    .inputContainer {
+      margin-left: 6rem;
+      width: 40vw;
+    }
+  }
 
 </style>

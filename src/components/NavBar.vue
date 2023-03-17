@@ -35,7 +35,7 @@
   }
 
   .Navbar-title {
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   .Navbar-title-m {
@@ -49,6 +49,22 @@
 
   .Navbar-auth {
     font-size: 1rem;
-    margin-right: 3rem;
+    margin-right: 1rem;
+  }
+
+  @media  (min-width: 900px) {
+    .Navbar {
+      height: 80px;
+      line-height: 80px;
+    }
+
+    .Navbar-title {
+      margin-left: 3rem;
+    }
+
+    .Navbar-auth {
+      margin-right: 3rem;
+    }
+    
   }
 </style>

@@ -37,6 +37,7 @@
     position: absolute;
     left:0;
     top: 0;
+    object-fit: cover;
     z-index: -1;
   }
 
@@ -45,7 +46,7 @@
     color: white;
     font-weight: bold;
     padding-top: 2rem;
-    padding-left: 6rem;
+    padding-left: 2rem;
     line-height: 3rem;
   }
 
@@ -53,7 +54,7 @@
     font-size: 2.2rem;
     color: white;
     font-weight: bold;
-    padding-left: 6rem;
+    padding-left: 2rem;
     padding-top: 1rem;
     margin: 0;
     line-height: 2.5rem;
@@ -66,7 +67,7 @@
     color: white;
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 6rem;
+    margin-left: 2rem;
     margin-top: 2rem;
     border: none;
     cursor: pointer;
@@ -75,5 +76,19 @@
 
   .Learn:hover {
     background-color: hsl(120, 49%, 48%);
+  }
+
+  @media screen and (min-width: 900px ) {
+
+    .Header-title {
+      padding-left: 6rem;
+    }
+
+    .Header-subtitle {
+      padding-left: 6rem;
+    }
+    .Learn {
+      margin-left: 6rem;
+    }
   }
 </style>
