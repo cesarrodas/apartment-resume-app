@@ -12,6 +12,14 @@
 </template>
 >>
 <style scoped>
+
+  a {
+    padding: 0 1rem;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
   .Navbar {
     position: fixed;
     top: 0;

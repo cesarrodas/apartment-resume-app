@@ -80,10 +80,13 @@
   }
 
   .Benefits-circles > h3 {
+    font-family: 'Dancing Script', cursive;
     position: absolute;
-    left: 35%;
+    left: 32.5%;
     top: 30%;
     color: blue;
+    font-weight: 700;
+    font-size: 2rem;
   }
 
   .Benefits-circles > span:nth-child(1) > h3 {

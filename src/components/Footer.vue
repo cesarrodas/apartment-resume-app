@@ -4,37 +4,37 @@
     <div>
       <h3>RentalMaster Network</h3>
       <ul class="Links">
-        <li>Apartamentos.com</li>
-        <li>ApartmentFinder.com</li>
-        <li>ApartmentHomeLiving.com</li>
-        <li>WestsideRentals.com</li>
-        <li>LoopNet.com</li>
-        <li>Cityfeet.com</li>
-        <li>Realla.co</li>
-        <li>Showcase.com</li>
-        <li>BizBuySell.com</li>
-        <li>LandsofAmerica.com</li>
-        <li>Homes.com</li>
-      </ul>
-    </div>
-    <div>
-      <h3>For Advertizers</h3>
-      <ul class="Links">
-        <li>Customer Portal</li>
-        <li>Listing Feeds</li>
+        <li><a>Apartamentos.com</a></li>
+        <li><a>ApartmentFinder.com</a></li>
+        <li><a>ApartmentHomeLiving.com</a></li>
+        <li><a>WestsideRentals.com</a></li>
+        <li><a>LoopNet.com</a></li>
+        <li><a>Cityfeet.com</a></li>
+        <li><a>Realla.co</a></li>
+        <li><a>Showcase.com</a></li>
+        <li><a>BizBuySell.com</a></li>
+        <li><a>LandsofAmerica.com</a></li>
+        <li><a>Homes.com</a></li>
       </ul>
     </div>
     <div>
       <h3>About Us</h3>
       <ul class="Links">
-        <li>Careers</li>
-        <li>Contact</li>
-        <li>Terms of Service</li>
-        <li>Privacy Statement</li>
-        <li>Equal Housing</li>
-        <li>Avoid Scams</li>
-        <li>Accessibility</li>
-        <li>Sitemap</li>
+        <li><a>Careers</a></li>
+        <li><a>Contact</a></li>
+        <li><a>Terms of Service</a></li>
+        <li><a>Privacy Statement</a></li>
+        <li><a>Equal Housing</a></li>
+        <li><a>Avoid Scams</a></li>
+        <li><a>Accessibility</a></li>
+        <li><a>Sitemap</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>For Advertizers</h3>
+      <ul class="Links">
+        <li><a>Customer Portal</a></li>
+        <li><a>Listing Feeds</a></li>
       </ul>
     </div>
   </div>
@@ -44,20 +44,40 @@
   .Footer {
     background-color: #262626;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 1fr 1fr 1fr;
     padding-top: 2rem;
     overflow-x: hidden;
+    text-align: center;
   }
 
   h3 {
     font-size: 1.2rem;
     color: white;
     padding-bottom: 1rem;
+    text-align: center;
   }
 
   .Links {
     list-style-type: none;
     color: white;
     padding-bottom: 2rem;
+    padding-left: 0;
+  }
+
+  a:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  @media (min-width: 900px) {
+    .Footer {
+      background-color: #262626;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      padding-top: 2rem;
+      overflow-x: hidden;
+    }
   }
 </style>

@@ -49,7 +49,7 @@
   }
 
   .Learn {
-    background-color: green;
+    background-color: hsl(120, 49%, 58%);
     padding: 1rem 1.5rem;
     width: fit-content;
     color: white;
@@ -59,5 +59,9 @@
     cursor: pointer;
     border-radius: 4px;
     margin-top: 2rem;
+  }
+
+  .Learn:hover {
+    background-color: hsl(120, 49%, 48%);
   }
 </style>
