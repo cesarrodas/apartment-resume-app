@@ -120,15 +120,6 @@
   }
 
   @media (min-width: 900px) {
-    /* .ImagesContainer {
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    } */
     .Information-Circle {
       height: 10rem;
       width: 10rem;
