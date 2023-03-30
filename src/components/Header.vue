@@ -28,6 +28,8 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .Header-image {

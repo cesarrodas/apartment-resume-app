@@ -1,23 +1,25 @@
 <template>
   <div class="Information">
-    <img src="../assets/city.svg" />
-    <div class="Information-grid">
-      <div class="Information-container">
-        <h2>NYC Renters pay on average </h2>
-        <h2>$4,500 in broker commission</h2>
-        <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
-        <h2>Landlord vacancies </h2>
-        <h2> are tough to find</h2>
-        <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
-        <h2>WE <span class="Information-special-text">Aggregate</span> <br/> LISTINGS DIRECT <br/> FROM LANDLORDS</h2>
-      </div>
-  
-      <div class="ImagesContainer">
-        <div class="Information-Circle one">
+    <img class="Information-background" src="../assets/city.svg" />
+    <div class="Information-content">
+      <div class="Information-grid">
+        <div class="Information-container">
+          <h2>NYC Renters pay on average </h2>
+          <h2>$4,500 in broker commission</h2>
+          <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
+          <h2>Landlord vacancies </h2>
+          <h2> are tough to find</h2>
+          <div class="Information-Divider-container"><div class="Information-Divider"></div></div>
+          <h2>WE <span class="Information-special-text">Aggregate</span> <br/> LISTINGS DIRECT <br/> FROM LANDLORDS</h2>
         </div>
-        <div class="Information-Circle two">
-        </div>
-        <div class="Information-Circle three">
+    
+        <div class="ImagesContainer">
+          <div class="Information-Circle one">
+          </div>
+          <div class="Information-Circle two">
+          </div>
+          <div class="Information-Circle three">
+          </div>
         </div>
       </div>
     </div>
@@ -32,6 +34,12 @@
     background: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
   }
 
+  .Information-content {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   .Information-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -43,9 +51,10 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
+    padding: 2rem;
   }
 
-  .Information > img {
+  .Information-background {
     width: 110%;
     position: absolute;
     bottom: -4rem;
