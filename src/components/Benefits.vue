@@ -1,18 +1,20 @@
 <template>
   <div class="Benefits">
     <img class="Benefits-image" src="../assets/benefits.jpg" />
-    <div>
-      <div class="Benefits-container">
-        <h2 class="Benefits-message">WE ONLY SHOW <br/> YOU REAL <span class="Benefits-special-text">Quality</span> <br/> LISTINGS...... </h2>
+    <div class="parent">
+      <div>
+        <div class="Benefits-container">
+          <h2 class="Benefits-message">WE ONLY SHOW <br/> YOU REAL <span class="Benefits-special-text">Quality</span> <br/> LISTINGS...... </h2>
+        </div>
       </div>
-    </div>
-    <div class="Benefits-circles-container">
-      <span class="Benefits-circles">
-        <span><h3>NO SPAN</h3></span>
-        <span><h3>NO FAKES</h3></span>
-        <span><h3>NO FEE</h3></span>
-        <h3>Quality</h3>
-      </span>
+      <div class="Benefits-circles-container">
+        <span class="Benefits-circles">
+          <span><h3>NO SPAN</h3></span>
+          <span><h3>NO FAKES</h3></span>
+          <span><h3>NO FEE</h3></span>
+          <h3>Quality</h3>
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -20,6 +22,15 @@
 <style scoped>
 
   .Benefits {
+    height: calc(2 * 100vw);
+    position: relative;
+    /* background: transparent;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr; */
+  }
+
+  .parent {
     height: calc(2 * 100vw);
     position: relative;
     background: transparent;
@@ -136,14 +147,26 @@
     background: transparent;
   }
 
-  @media (min-width: 900px) { 
+  @media (min-width: 1200px) { 
     .Benefits {
       height: 100vh;
+      position: relative;
+      background: transparent;
+    }
+
+    .parent {
+      height: 100vh;
+      max-width: 1200px;
       position: relative;
       background: transparent;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
+      margin: 0 auto;
+    }
+
+    .Benefits-image {
+      object-fit: cover;
     }
 
     .Benefits-container {
@@ -155,9 +178,9 @@
     }
 
     .Benefits-circles {
-      margin-top: 4rem;
+      margin-top: 35%;
       position: relative;
-      height: 100%; 
+      max-height: 620px; 
       width: 100%;
       display: block;
     }

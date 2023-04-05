@@ -65,4 +65,11 @@
   .Learn:hover {
     background-color: hsl(120, 49%, 48%);
   }
+
+  @media (min-width: 1200px) { 
+    .Conclusion-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
 </style>

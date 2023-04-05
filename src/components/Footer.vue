@@ -1,5 +1,6 @@
 <template>
-  <div class="Footer">
+  <div class="Footer-container">
+    <div class="Footer">
     <div></div>
     <div>
       <h3>RentalMaster Network</h3>
@@ -37,7 +38,9 @@
         <li><a>Listing Feeds</a></li>
       </ul>
     </div>
+    </div>
   </div>
+
 </template>
 
 <style scoped>
@@ -78,6 +81,13 @@
       grid-template-rows: 1fr;
       padding-top: 2rem;
       overflow-x: hidden;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .Footer-container {
+      width: 100%;
+      background-color: #262626;
     }
   }
 </style>
