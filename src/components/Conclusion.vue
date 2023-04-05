@@ -13,7 +13,7 @@
 <style scoped>
   .Conclusion {
     height: 100vh;
-    filter: brightness(0.);
+    filter: brightness(0.8);
     position: relative;
     background-color: rgb(187, 182, 182);
     overflow: hidden;
