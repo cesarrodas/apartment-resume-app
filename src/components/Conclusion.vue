@@ -1,6 +1,6 @@
 <template>
   <div class="Conclusion">
-    <img class="Conclusion-image" src="../assets/conclusion.jpg" />
+    <img class="Conclusion-image" src="../assets/conclu.jpg" />
     <div class="Conclusion-container">
       <h2 class="Conclusion-message">WE <br/>DELIVER <br/> TODAY!</h2>
       <div class="Conclusion-button">
